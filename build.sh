@@ -1,6 +1,6 @@
 #!/bin/bash
 
 docker build \
-  --tag librespeedtest-local \
+  --tag speedtest-local \
   --force-rm \
     .

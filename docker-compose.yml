@@ -1,9 +1,9 @@
 version: '2'
 services:
-  librespeedtest:
+  speedtest:
     user: '501:20'
-    container_name: librespeedtest
-    image: opengg/librespeedtest
+    container_name: speedtest
+    image: opengg/speedtest
     ports:
       - 8989:8989
     volumes:
