@@ -1,0 +1,21 @@
+# bind address, use empty string to bind to all interfaces
+bind_address=""
+# backend listen port, default is 8989
+listen_port=8989
+# ipinfo.io API key, if applicable
+ipinfo_api_key=""
+
+# password for logging into statistics page, change this to enable stats page
+statistics_password="PASSWORD"
+# redact IP addresses
+redact_ip_addresses=false
+
+# database type for statistics data, currently supports: bolt, mysql, postgresql
+database_type="bolt"
+database_hostname="localhost"
+database_name="speedtest"
+database_username="bolt"
+database_password=""
+
+# if you use `bolt` as database, set database_file to database file location
+database_file="speedtest.db"

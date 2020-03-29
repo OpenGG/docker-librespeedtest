@@ -1,0 +1,11 @@
+version: '2'
+services:
+  librespeedtest:
+    user: '501:20'
+    container_name: librespeedtest
+    image: opengg/librespeedtest
+    ports:
+      - 8989:8989
+    volumes:
+      - ./settings.toml:/settings.toml
+      - ./speedtest.db:/speedtest.db
