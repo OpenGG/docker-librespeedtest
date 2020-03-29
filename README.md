@@ -7,6 +7,8 @@
 [![Docker Stars](https://img.shields.io/docker/stars/opengg/librespeedtest.svg)](https://hub.docker.com/r/opengg/librespeedtest/ "Docker Stars")
 [![Docker Automated](https://img.shields.io/docker/automated/opengg/librespeedtest.svg)](https://hub.docker.com/r/opengg/librespeedtest/ "Docker Automated")
 
+Minimal docker image for librespeedtest (go implementation).
+
 ## Usage
 
 0. Prepare config and db files with following commands.
